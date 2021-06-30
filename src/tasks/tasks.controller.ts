@@ -12,28 +12,27 @@ export class TasksController {
     private taskService: TaskService) {}
 
     @Get()
-    async getAll(): Promise<Task[]> {
-      return this.taskService.getAll();
+    async getAllTasks(): Promise<Task[]> {
+      return this.taskService.getAllTasks();
     };
 
     @Get(':id')
-    async getById(@Param('id') id: number): Promise<Task> {
-      return this.taskService.getById(id);
+    async getTaskById(@Param('id') id: string): Promise<Task> {
+      return this.taskService.getTaskById(id);
     };
 
     @Post()
-    async create(@Body() task: Task): Promise<Task> {
-      return this.taskService.create(task);
+    async createTask(@Body() task: Task): Promise<Task> {
+      return this.taskService.createTask(task);
     };
 
     @Put(':id')
-    async update(@Param('id') id: number, @Body() task: Task): Promise<Task> {
-      task.id = id;
-      return this.taskService.update(task);
+    async updateTask(@Param('id') id: string, @Body() task: Task): Promise<Task> {
+      return this.taskService.updateTask(id, task);
     };
 
     @Delete(':id')
-    async delete(@Param('id') id: number) {
+    async delete(@Param('id') id: string) {
       this.taskService.delete(id);
     }
   
