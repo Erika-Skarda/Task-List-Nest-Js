@@ -1,5 +1,5 @@
-import { MongooseModule} from '@nestjs/mongoose';
 import { Module } from '@nestjs/common';
+import { MongooseModule} from '@nestjs/mongoose';
 import { TaskService } from './shared/task.service';
 import { TasksController } from './tasks.controller';
 import { TaskSchema } from './schemas/task.schema'

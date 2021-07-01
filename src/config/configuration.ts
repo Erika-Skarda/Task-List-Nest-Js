@@ -1,7 +1,8 @@
-export const  configuration = () => {
-  return {
-    environment: process.env.NODE_ENV,
-    port: process.env.PORT,
-    mongodb: process.env.MONGODB_URI
+export const configuration =  () => ({
+  mongodb: process.env.MONGODB_URI,
+  port: parseInt(process.env.PORT, 10) || 3000,
+  database: {
+    host: process.env.DATABASE_HOST,
+    port: parseInt(process.env.DATABASE_PORT, 10) || 5432
   }
-}
+});
