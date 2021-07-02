@@ -35,13 +35,12 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
 <h3 align="center"><b>Tasks</b></h3>
 
-| Routes  |      Method     |  Cool |
-|----------|:-------------:|------:|
-| api/tasks |  get | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Routes          |      Method   |  Cool |
+|----------       |:-------------:|------:|
+| api/tasks       |     POST      | $1600 |
+| api/tasks       |      GET      |   $12 |
+| api/tasks/:id   |      GET      |    $1 |
  
-![Tela no MongoDB da collection dos fornecedores](https://github.com/Erika-Skarda/integrado/blob/main/Supplier.png)
 
 <h3 align="center"><b>Produtos</b></h3>
 
@@ -55,14 +54,13 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
 🥑 <b>Pegar produto pelo CNPJ</b>
  
-![Tela no MongoDB da collection dos fornecedores](https://github.com/Erika-Skarda/integrado/blob/main/Products.png)
 
 ## Como rodar a aplicação :arrow_forward:
 
 No terminal, clone o projeto: 
 
 ```
-https://github.com/Erika-Skarda/integrado
+https://github.com/Erika-Skarda/Task-List-Nest-Js
 
 ```
 <b><p>Backend</p></b>
@@ -76,7 +74,7 @@ npm run dev
 <b><p>MongoDB</p></b>
 
 ```
-Criar database IntegradoDB
+Criar database TaskListDB
 
 ```
 
@@ -84,9 +82,10 @@ Criar database IntegradoDB
 
 ### Backend: 
 
-- [Javascript](https://www.javascript.com/)
+- [Typescript](https://www.typescriptlang.org/)
 - [NodeJs](https://nodejs.org/en/download)
-- [Express](https://expressjs.com/)
+- [Nestjs](https://nestjs.com/)
+- [JWT](https://jwt.io/)
 
 ### Banco de dados:
 
