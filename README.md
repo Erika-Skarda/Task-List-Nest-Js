@@ -1,4 +1,4 @@
-# Task List 
+# Task List 📊
 
 API criada em NestJs e o banco não-relacional MongoDB.
 
@@ -31,32 +31,35 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
  <b>[Heroku](https://tasklistnest.herokuapp.com/)</b>
 
-## Backend(Funcionalidades):
+## 🧮 Backend(Funcionalidades):
 
 <h3 align="center"><b>Tasks</b></h3>
-
-                                                          | Routes | Description | Method 
-                                                          | --- | :---:  | :---: |
-                                                          | `api/tasks` | **Create Task** | POST 
-                                                          | `api/tasks` | **Get All Tasks** | GET 
-                                                          | `api/tasks/:id` | **Get Task By Id** | GET 
-                                                          | `api/tasks/:name` | **Get Task By Name** | GET
-                                                          | `api/tasks/:email` | **Get Task By Email** | GET
-                                                          | `api/tasks/:id` | **Update Task** | PUT 
-                                                          | `api/tasks/:id` | **Delete Task** | DELETE 
-
-<h3 align="center"><b>Users</b></h3>
 
 | Routes | Description | Method 
 | --- | :---:  | :---: |
 | `api/tasks` | **Create Task** | POST 
 | `api/tasks` | **Get All Tasks** | GET 
 | `api/tasks/:id` | **Get Task By Id** | GET 
-| `api/tasks/:name` | **Get Task By Name** | GET
-| `api/tasks/:email` | **Get Task By Email** | GET
 | `api/tasks/:id` | **Update Task** | PUT 
 | `api/tasks/:id` | **Delete Task** | DELETE 
- 
+
+<h3 align="center"><b>Users</b></h3>
+
+| Routes | Description | Method 
+| --- | :---:  | :---: |
+| `api/users` | **Create User** | POST 
+| `api/users` | **Get All Users** | GET 
+| `api/users/:id` | **Get user By Id** | GET 
+| `api/users/:name` | **Get User By Name** | GET
+| `api/users/:email` | **Get User By Email** | GET
+| `api/users/:id` | **Update User** | PUT 
+| `api/users/:id` | **Delete user** | DELETE 
+
+<h3 align="center"><b>Auth</b></h3>
+
+| Routes | Description | Method 
+| --- | :---:  | :---: |
+| `api/auth/login` | **Loginr** | POST 
 
 ## Como rodar a aplicação :arrow_forward:
 
