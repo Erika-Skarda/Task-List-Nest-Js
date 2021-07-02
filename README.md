@@ -27,13 +27,17 @@ API criada em NestJs e o banco não-relacional MongoDB.
 
 API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
+## <img src="https://github.com/Erika-Skarda/Pokemon/blob/main/bulbasaur_icon-icons.com_67580.ico" /> Deploy
+
+ <b>[Heroku](https://tasklistnest.herokuapp.com/)</b>
+
 ## Backend(Funcionalidades):
 
 <h3 align="center"><b>Tasks</b></h3>
 
 | Routes  |      Method     |  Cool |
 |----------|:-------------:|------:|
-| api/tasks |  left-aligned | $1600 |
+| api/tasks |  get | $1600 |
 | col 2 is |    centered   |   $12 |
 | col 3 is | right-aligned |    $1 |
  
