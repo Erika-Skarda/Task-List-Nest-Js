@@ -19,9 +19,9 @@ API criada em NestJs e o banco não-relacional MongoDB.
 > Status do Projeto: Concluído :heavy_check_mark: 
 
 
-## Link da documentação: :book:
+## :book:  Link da documentação:
 
-<b>[Postman](https://documenter.getpostman.com/view/15971782/TzeTJpJS)</b>
+<b>[Postman](https://documenter.getpostman.com/view/15971782/TzkzrfM2)</b>
 
 ## 💻 Projeto
 
@@ -35,12 +35,15 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
 <h3 align="center"><b>Tasks</b></h3>
 
-| Routes          |      Method   |  Cool |
-|----------       |:-------------:|------:|
-| api/tasks       |     POST      | $1600 |
-| api/tasks       |      GET      |   $12 |
-| api/tasks/:id   |      GET      |    $1 |
- 
+| Routes            |      Method   |  Name         |
+|----------         |:-------------:|------------- :|
+| api/tasks         |     POST      |    Create Task |
+| api/tasks         |      GET      |    Get All Tasks |
+| api/tasks/:id     |      GET      |    Get Task By Id |
+| api/tasks/:name   |      GET      |    Get Task By Name |
+| api/tasks/:email  |      GET      |    Get Task By Email |
+| api/tasks/:id     |     PUT       |    $1600 |
+| api/tasks/:id     |      DELETE     |   $12 |
 
 <h3 align="center"><b>Produtos</b></h3>
 
