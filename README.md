@@ -23,11 +23,11 @@ API criada em NestJs e o banco não-relacional MongoDB.
 
 <b>[Postman](https://documenter.getpostman.com/view/15971782/TzkzrfM2)</b>
 
-## 💻 Projeto
+## 💻 Projeto :
 
 API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
-## <img src="https://github.com/Erika-Skarda/Pokemon/blob/main/bulbasaur_icon-icons.com_67580.ico" /> Deploy
+## 💨 Deploy :
 
  <b>[Heroku](https://tasklistnest.herokuapp.com/)</b>
 
