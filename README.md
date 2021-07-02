@@ -36,7 +36,7 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 <h3 align="center"><b>Tasks</b></h3>
 
 | Routes            |      Method   |  Name         |
-|----------         |:-------------:|------------- :|
+|----------         |:-------------:|:------------- :|
 | api/tasks         |     POST      |    Create Task |
 | api/tasks         |      GET      |    Get All Tasks |
 | api/tasks/:id     |      GET      |    Get Task By Id |
