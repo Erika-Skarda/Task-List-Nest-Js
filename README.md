@@ -36,14 +36,14 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 <h3 align="center"><b>Tasks</b></h3>
 
 | Routes | Description | Method 
-| --- | :---:  | --- |
+| --- | :---:  | :---: |
 | `api/tasks` | **Create Task** | POST 
 | `api/tasks` | **Get All Tasks** | GET 
-| `api/tasks` | **Get Task By Id** | GET 
-| `api/tasks` | **Get Task By Name** | GET
-| `api/tasks` | **Get Task By Email** | GET
-| `api/tasks` | **Update Task** | PUT 
-| `api/tasks` | **Delete Task** | DELETE 
+| `api/tasks/:id` | **Get Task By Id** | GET 
+| `api/tasks/:name` | **Get Task By Name** | GET
+| `api/tasks/:email` | **Get Task By Email** | GET
+| `api/tasks/:id` | **Update Task** | PUT 
+| `api/tasks/:id` | **Delete Task** | DELETE 
 
 
 | Routes            |      Method   |  Name         |
