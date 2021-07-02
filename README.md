@@ -14,7 +14,7 @@ API criada em NestJs e o banco não-relacional MongoDB.
  <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
  <img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
 </div>
-
+</br>
 
 > Status do Projeto: Concluído :heavy_check_mark: 
 
@@ -25,25 +25,17 @@ API criada em NestJs e o banco não-relacional MongoDB.
 
 ## 💻 Projeto
 
-API com CRUD de fornecedores(supplier) e CRUD de produtos(products).
-
-## 🚀 Instruções:
-
-<b>[PDF](https://github.com/Erika-Skarda/integrado/blob/main/Teste-Backend.pdf)</b>
+API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
 ## Backend(Funcionalidades):
 
-<h3 align="center"><b>Fornecedores</b></h3>
+<h3 align="center"><b>Tasks</b></h3>
 
-🙆‍♀️ <b>Cadastro de fornecedor</b>
-
-🙆‍♀️ <b>Listar todos fornecedores</b>
-
-🙆‍♀️ <b>Remover fornecedor</b>
-
-🙆‍♀️ <b>Pegar fornecedor pelo ID</b>
-
-🙆‍♀️ <b>Edição do fornecedor</b>
+| Routes  |      Method     |  Cool |
+|----------|:-------------:|------:|
+| api/tasks |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
  
 ![Tela no MongoDB da collection dos fornecedores](https://github.com/Erika-Skarda/integrado/blob/main/Supplier.png)
 
