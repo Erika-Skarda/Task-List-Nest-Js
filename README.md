@@ -4,72 +4,107 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+API criada em NodeJs e o banco não-relacional MongoDB.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+</br>   
 
-## Description
+<div align="center">
+ <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
+ <img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
+ <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+ <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
+</div>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+</br> 
+> Status do Projeto: Concluído :heavy_check_mark: 
+</br> 
 
-## Installation
+## Link da documentação: :book:
 
-```bash
-$ npm install
+<b>[Postman](https://documenter.getpostman.com/view/15971782/TzeTJpJS)</b>
+
+## 💻 Projeto
+
+API com CRUD de fornecedores(supplier) e CRUD de produtos(products).
+
+## 🚀 Instruções:
+
+<b>[PDF](https://github.com/Erika-Skarda/integrado/blob/main/Teste-Backend.pdf)</b>
+
+## Backend(Funcionalidades):
+
+<h3 align="center"><b>Fornecedores</b></h3>
+
+🙆‍♀️ <b>Cadastro de fornecedor</b>
+
+🙆‍♀️ <b>Listar todos fornecedores</b>
+
+🙆‍♀️ <b>Remover fornecedor</b>
+
+🙆‍♀️ <b>Pegar fornecedor pelo ID</b>
+
+🙆‍♀️ <b>Edição do fornecedor</b>
+ 
+![Tela no MongoDB da collection dos fornecedores](https://github.com/Erika-Skarda/integrado/blob/main/Supplier.png)
+
+<h3 align="center"><b>Produtos</b></h3>
+
+🥑 <b>Cadastro de produto</b>
+
+🥑 <b>Listar todos produtos</b>
+
+🥑 <b>Remover produto</b>
+
+🥑 <b>Pegar produto pelo ID</b>
+
+🥑 <b>Pegar produto pelo CNPJ</b>
+ 
+![Tela no MongoDB da collection dos fornecedores](https://github.com/Erika-Skarda/integrado/blob/main/Products.png)
+
+## Como rodar a aplicação :arrow_forward:
+
+No terminal, clone o projeto: 
+
+```
+https://github.com/Erika-Skarda/integrado
+
+```
+<b><p>Backend</p></b>
+
+Para rodar:
+
+```
+npm run dev
+
+```
+<b><p>MongoDB</p></b>
+
+```
+Criar database IntegradoDB
+
 ```
 
-## Running the app
+## Tecnologias usadas: :books:
 
-```bash
-# development
-$ npm run start
+### Backend: 
 
-# watch mode
-$ npm run start:dev
+- [Javascript](https://www.javascript.com/)
+- [NodeJs](https://nodejs.org/en/download)
+- [Express](https://expressjs.com/)
 
-# production mode
-$ npm run start:prod
-```
+### Banco de dados:
 
-## Test
+- [MongoDB](https://www.mongodb.com/)
 
-```bash
-# unit tests
-$ npm run test
+## Pré-requisitos
 
-# e2e tests
-$ npm run test:e2e
+:warning: [MongoDB](https://www.mongodb.com/)
 
-# test coverage
-$ npm run test:cov
-```
+:warning: [Node](https://nodejs.org/en/download/)
 
-## Support
+:warning: [Npm](https://www.npmjs.com/)
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Desenvolvido Por :octocat:
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+| [<img src="https://avatars1.githubusercontent.com/u/60902843?s=400&u=fca9219fa3416ab4b849077b9248f71d44133283&v=4" width=115><br><sub>Erika Skarda</sub>](https://www.linkedin.com/in/erika-skarda/) | 
+| :---: |
