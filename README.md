@@ -35,7 +35,6 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
 <h3 align="center"><b>Tasks</b></h3>
 
-<div align="center">
 | Routes | Description | Method 
 | --- | :---:  | :---: |
 | `api/tasks` | **Create Task** | POST 
@@ -45,29 +44,18 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 | `api/tasks/:email` | **Get Task By Email** | GET
 | `api/tasks/:id` | **Update Task** | PUT 
 | `api/tasks/:id` | **Delete Task** | DELETE 
-</div>
 
-| Routes            |      Method   |  Name         |
-|----------         |:-------------:|:------------- :|
-| api/tasks         |     POST      |    Create Task |
-| api/tasks         |      GET      |    Get All Tasks |
-| api/tasks/:id     |      GET      |    Get Task By Id |
-| api/tasks/:name   |      GET      |    Get Task By Name |
-| api/tasks/:email  |      GET      |    Get Task By Email |
-| api/tasks/:id     |     PUT       |    $1600 |
-| api/tasks/:id     |      DELETE     |   $12 |
+<h3 align="center"><b>Users</b></h3>
 
-<h3 align="center"><b>Produtos</b></h3>
-
-🥑 <b>Cadastro de produto</b>
-
-🥑 <b>Listar todos produtos</b>
-
-🥑 <b>Remover produto</b>
-
-🥑 <b>Pegar produto pelo ID</b>
-
-🥑 <b>Pegar produto pelo CNPJ</b>
+| Routes | Description | Method 
+| --- | :---:  | :---: |
+| `api/tasks` | **Create Task** | POST 
+| `api/tasks` | **Get All Tasks** | GET 
+| `api/tasks/:id` | **Get Task By Id** | GET 
+| `api/tasks/:name` | **Get Task By Name** | GET
+| `api/tasks/:email` | **Get Task By Email** | GET
+| `api/tasks/:id` | **Update Task** | PUT 
+| `api/tasks/:id` | **Delete Task** | DELETE 
  
 
 ## Como rodar a aplicação :arrow_forward:
