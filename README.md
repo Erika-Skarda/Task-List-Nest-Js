@@ -38,7 +38,13 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 | Routes | Description | Method 
 | --- | :---:  | --- |
 | `api/tasks` | **Create Task** | POST 
-| `git diff` | Show file differences that **haven't been** staged |
+| `api/tasks` | **Get All Tasks** | GET 
+| `api/tasks` | **Get Task By Id** | GET 
+| `api/tasks` | **Get Task By Name** | GET
+| `api/tasks` | **Get Task By Email** | GET
+| `api/tasks` | **Update Task** | PUT 
+| `api/tasks` | **Delete Task** | DELETE 
+
 
 | Routes            |      Method   |  Name         |
 |----------         |:-------------:|:------------- :|
