@@ -35,9 +35,9 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
 <h3 align="center"><b>Tasks</b></h3>
 
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
+| Routes | Description | Method 
+| --- | --- | --- |
+| `api/tasks` | List all *new or modified* files | Create Task
 | `git diff` | Show file differences that **haven't been** staged |
 
 | Routes            |      Method   |  Name         |
