@@ -35,6 +35,7 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 
 <h3 align="center"><b>Tasks</b></h3>
 
+<div align="center">
 | Routes | Description | Method 
 | --- | :---:  | :---: |
 | `api/tasks` | **Create Task** | POST 
@@ -44,7 +45,7 @@ API com CRUD de tarefas(tasks) e CRUD de usuários(users).
 | `api/tasks/:email` | **Get Task By Email** | GET
 | `api/tasks/:id` | **Update Task** | PUT 
 | `api/tasks/:id` | **Delete Task** | DELETE 
-
+</div>
 
 | Routes            |      Method   |  Name         |
 |----------         |:-------------:|:------------- :|
